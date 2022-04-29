@@ -57,6 +57,10 @@ button {
   border-radius: 8px;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
 
 @media screen and (max-width: 940px) {
