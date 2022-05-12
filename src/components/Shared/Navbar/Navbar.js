@@ -29,13 +29,13 @@ function Navbar() {
         <Link to="destinations" smooth={true} duration={500}>
           <li>Destinations</li>
         </Link>
-        <Link to="carousel" smooth={true} duration={500}>
+        <Link to="services" smooth={true} duration={500}>
           <li>Travel</li>
         </Link>
         <Link to="search" smooth={true} duration={500}>
           <li>Book</li>
         </Link>
-        <Link to="views" smooth={true} duration={500}>
+        <Link to="testimonials" smooth={true} duration={500}>
           <li>Views</li>
         </Link>
       </ul>
@@ -65,7 +65,7 @@ function Navbar() {
           <Link to="search" smooth={true} duration={500}>
             <li>Book</li>
           </Link>
-          <Link to="views" smooth={true} duration={500}>
+          <Link to="testimonials" smooth={true} duration={500}>
             <li>Views</li>
           </Link>
         </ul>
