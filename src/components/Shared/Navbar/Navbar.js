@@ -20,7 +20,7 @@ function Navbar() {
   return (
     <div name="home" className={nav ? "navbar navbar-bg" : "navbar"}>
       <div className={nav ? "logo dark" : "logo"}>
-        <h2>HOLIDAY JAR.</h2>
+        <h2>HOLIDAYS JAR.</h2>
       </div>
       <ul className="nav-menu">
         <Link to="home" smooth={true} duration={500}>
