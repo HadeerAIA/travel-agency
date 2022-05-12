@@ -8,7 +8,7 @@ function Footer() {
         <div className='footer'>
             <div className="container">
                 <div className="top">
-                    <h3>HOLIDAY JAR</h3>
+                    <h3>HOLIDAYS JAR</h3>
                     <div className="social">
                         <FaFacebook className='icon' />
                         <FaInstagram className='icon' />
@@ -19,7 +19,7 @@ function Footer() {
                 </div>
                 <div className="bottom">
                     <div className="left">
-                        <span>Copyright &copy; 2022 HOLIDAY JAY. All rights reserved</span>
+                        <span>Copyright &copy; 2022 HOLIDAYS JAR. All rights reserved</span>
                     </div>
                     <div className="right">
                         <ul>

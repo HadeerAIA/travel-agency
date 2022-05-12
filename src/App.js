@@ -5,6 +5,8 @@ import Services from "./components/HomePage/Services/Services";
 import Recommend from "./components/HomePage/Recommend/Recommend";
 import Testimonials from "./components/HomePage/Testimonials/Testimonials";
 import Footer from "./components/Shared/Footer/Footer";
+import ContactUs from "./components/ContactUs/ContactUs";
+
 function App() {
   return (
     <div>
@@ -13,6 +15,7 @@ function App() {
       <Services />
       <Recommend />
       <Testimonials/>
+      <ContactUs/>
       <Footer />
     </div>
   );
