@@ -6,7 +6,9 @@
     align-items: center;
     padding: 0 1rem;
     z-index: 2;
-    position: absolute;
+    position: absolute; 
+    position: fixed;    
+    background-color: rgba(0, 0, 0, 0.342);
     color: #fff;
 }
 
@@ -34,6 +36,20 @@ li {
 .icon {
     font-size: 1.5rem;
     cursor: pointer;
+}
+
+.logo {
+    /* border-radius:2rem; */    
+    width: 5rem; 
+    height: 5rem;   
+    display: flex;
+    gap: 0.3rem;
+    padding: 0.3rem 0.4rem;
+}
+
+#homepageName{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
 }
 
 @media screen and (max-width: 940px) {

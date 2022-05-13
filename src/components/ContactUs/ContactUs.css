@@ -1,3 +1,7 @@
+#contactUs {
+  padding: 2rem 0;
+}
+
 @keyframes spinAround {
     from {
       transform: rotate(0deg);

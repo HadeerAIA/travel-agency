@@ -11,6 +11,7 @@ import {
   FaYoutube
 } from "react-icons/fa";
 import { Link } from "react-scroll";
+import hoidaysjar from "../../../assets/holidaysjarwhite.png";
 import "./Navbar.css";
 
 function Navbar() {
@@ -18,25 +19,38 @@ function Navbar() {
   const handleNav = () => setNav(!nav);
 
   return (
+    
     <div name="home" className={nav ? "navbar navbar-bg" : "navbar"}>
       <div className={nav ? "logo dark" : "logo"}>
-        <h2>HOLIDAYS JAR.</h2>
+        <div className="logo">
+          <img src={hoidaysjar} alt="" />  
+          <h2 id="homepageName">HOLIDAYS JAR</h2>
+        </div>        
       </div>
       <ul className="nav-menu">
         <Link to="home" smooth={true} duration={500}>
           <li>Home</li>
+        </Link>        
+        <Link to="hotels" smooth={true} duration={500}>
+          <li>Hotels</li>
+        </Link>
+        <Link to="sights" smooth={true} duration={500}>
+          <li>Sights</li>
         </Link>
         <Link to="destinations" smooth={true} duration={500}>
           <li>Destinations</li>
         </Link>
         <Link to="services" smooth={true} duration={500}>
-          <li>Travel</li>
+          <li>Services</li>
         </Link>
         <Link to="search" smooth={true} duration={500}>
           <li>Book</li>
         </Link>
         <Link to="testimonials" smooth={true} duration={500}>
-          <li>Views</li>
+          <li>Reviews</li>
+        </Link>
+        <Link to="contactUs" smooth={true} duration={500}>
+          <li>Contact Us</li>
         </Link>
       </ul>
       <div className="nav-icons">
@@ -50,24 +64,35 @@ function Navbar() {
           <AiOutlineClose style={{ color: "#000" }} className="icon" />
         )}
       </div>
-
+      <style>
+          @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+      </style>
       <div className={nav ? "mobile-menu active" : "mobile-menu"}>
         <ul className="mobile-nav">
           <Link to="home" smooth={true} duration={500}>
             <li>Home</li>
           </Link>
-          <Link to="destinations" smooth={true} duration={500}>
-            <li>Destinations</li>
-          </Link>
-          <Link to="carousel" smooth={true} duration={500}>
-            <li>Travel</li>
-          </Link>
-          <Link to="search" smooth={true} duration={500}>
-            <li>Book</li>
-          </Link>
-          <Link to="testimonials" smooth={true} duration={500}>
-            <li>Views</li>
-          </Link>
+          <Link to="hotels" smooth={true} duration={500}>
+          <li>Hotels</li>
+        </Link>
+        <Link to="sights" smooth={true} duration={500}>
+          <li>Sights</li>
+        </Link>
+        <Link to="destinations" smooth={true} duration={500}>
+          <li>Destinations</li>
+        </Link>
+        <Link to="services" smooth={true} duration={500}>
+          <li>Services</li>
+        </Link>
+        <Link to="search" smooth={true} duration={500}>
+          <li>Book</li>
+        </Link>
+        <Link to="testimonials" smooth={true} duration={500}>
+          <li>Reviews</li>
+        </Link>
+          <Link to="contactUs" smooth={true} duration={500}>
+          <li>Contact Us</li>
+        </Link>
         </ul>
         <div className="mobile-menu-bottom">
           <div className="menu-icons">

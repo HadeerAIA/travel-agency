@@ -120,8 +120,8 @@ import './ContactUs.css'
     }*/
 
       return(
-          
-        // <div style="max-width:500px;padding:30px">
+          <div id="contactUs">          
+        {/* <div style="max-width:500px;padding:30px"> */}
         <div style={{outerWidth: `500px`, padding : '30px'}}>
         <div id="fcf-form">
             <form class="fcf-form-class" id="freeversion" method="post" action="fcf-assets/fcf.process.php">
@@ -160,7 +160,9 @@ import './ContactUs.css'
             <p>Thanks for contacting us, we will get back in touch with you soon.</p>           
         </div>
     </div>
-      )
+    </div>    
+      );
   }
     
 export default ContactUs;
+
