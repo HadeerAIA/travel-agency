@@ -24,6 +24,7 @@ function Navbar() {
       <div className={nav ? "logo dark" : "logo"}>
         <div className="logo">
           <img src={hoidaysjar} alt="" />  
+          {/* <a href="homepage"><h2 id="homepageName">HOLIDAYS JAR</h2></a> */}
           <h2 id="homepageName">HOLIDAYS JAR</h2>
         </div>        
       </div>
