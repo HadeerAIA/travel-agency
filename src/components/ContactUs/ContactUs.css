@@ -1,23 +1,22 @@
-*{
-  margin:0px;
+* {
+  margin: 0px;
   padding: 0px;
 }
 
-.bodycontactus{
+.bodycontactus {
   overflow-x: hidden;
 }
 
-section{
+section {
   width: 100%;
   height: 100vh;
-  background-color:#001923;
+  background-color: #001923;
   display: flex;
   justify-content: center;
-  align-items:center;
-  
+  align-items: center;
 }
 
-section:before{
+/* section:before{
   content: '';
   position:absolute;
   width: 250px;
@@ -37,11 +36,11 @@ section:after{
   border-radius: 50%;
   bottom: 0;
   right: 0;
-}
+} */
 
-.container{
+.container {
   z-index: 1000;
-  position:relative;
+  position: relative;
   width: 100%;
   max-width: 1000px;
   padding: 50px;
@@ -53,50 +52,49 @@ section:after{
   backdrop-filter: blur(25px);
 }
 
-.container:before{
-  content: '';
+.container:before {
+  content: "";
   width: 100%;
   height: 100%;
   background-color: rgba(255, 255, 255, 0.2);
   position: absolute;
   top: 0;
-  left:-40%;
-  z-index:-1;
-  transform:skewX(-15deg);
+  left: -40%;
+  z-index: -1;
+  transform: skewX(-15deg);
 }
 
-.container h2{
+.container h2 {
   text-align: center;
   font-size: 36px;
   color: #fff;
   margin-bottom: 20px;
 }
 
-.row{
+.row {
   width: 100%;
   display: grid;
-  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-  grid-gap:20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
 }
 
-
-.col{
+.col {
   position: relative;
   width: 100%;
   padding: 0 10px;
   margin: 30px 0 20px;
 }
 
-.inputbox{
+.inputbox {
   position: relative;
   width: 100%;
   height: 40px;
-  color:#fff;
+  color: #fff;
 }
 
 .inputbox input,
-.inputbox textarea{
-  position:absolute;
+.inputbox textarea {
+  position: absolute;
   width: 100%;
   height: 100%;
   background-color: transparent;
@@ -108,66 +106,62 @@ section:after{
   resize: none;
 }
 
-
-
-
-.text{
-  position:absolute;
+.text {
+  position: absolute;
   top: 0;
   left: 0;
   line-height: 40px;
   padding: 0 10px;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .inputbox input:focus + .text,
-.inputbox textarea:focus + .text{
+.inputbox textarea:focus + .text {
   top: -35px;
   left: -10px;
 }
 
 .inputbox input:valid + .text,
-.inputbox textarea:valid + .text{
+.inputbox textarea:valid + .text {
   top: -35px;
   left: -10px;
 }
 
-.line{
-  position:absolute;
-  bottom:0;
+.line {
+  position: absolute;
+  bottom: 0;
   display: block;
   width: 100%;
   height: 2px;
   background-color: #fff;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .inputbox input:focus ~ .line,
-.inputbox textarea:focus ~ .line{
+.inputbox textarea:focus ~ .line {
   height: 100%;
 }
 
 .inputbox input:valid ~ .line,
-.inputbox textarea:valid ~ .line{
+.inputbox textarea:valid ~ .line {
   height: 100%;
 }
 
-.textarea{
+.textarea {
   position: relative;
   width: 100%;
-  height:100px ;
+  height: 100px;
 }
 
-
-.textarea .text{
+.textarea .text {
   padding: 0 10px;
 }
 
-.textarea textarea{
+.textarea textarea {
   padding: 10px;
 }
 
-.col input[type="submit"]{
+.col input[type="submit"] {
   background-color: #fff;
   padding: 15px 25px;
   outline: none;
@@ -177,45 +171,39 @@ section:after{
   cursor: pointer;
 }
 
-@media screen and (max-width:1100px) {
-  .container{
-     max-width: 100%;
+@media screen and (max-width: 1100px) {
+  .container {
+    max-width: 100%;
   }
-  
 }
 
-@media screen and (max-width:630px) {
-  .container{
-     max-width: 100%;
+@media screen and (max-width: 630px) {
+  .container {
+    max-width: 100%;
   }
-  section{
-  width: 100%;
-  height: 100%;
-  background-color:#001923;
-  display: flex;
-  justify-content: center;
-  align-items:center;
-  
-}
+  section {
+    width: 100%;
+    height: 100%;
+    background-color: #001923;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-@media screen and (max-width:400px) {
-  .container{
+@media screen and (max-width: 400px) {
+  .container {
     padding: 50px 20px;
   }
 
-  
-
-section:after{
-  content: '';
-  position:absolute;
-  width: 250px;
-  height: 250px;
-  background: linear-gradient(#2196f3,#83d8ff );
-  border-radius: 50%;
-  bottom:-400px;
-  right: 0;
-}
-  
-
+  section:after {
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(#2196f3, #83d8ff);
+    border-radius: 50%;
+    bottom: -400px;
+    right: 0;
+  }
 }

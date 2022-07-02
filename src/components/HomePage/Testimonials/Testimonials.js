@@ -1,6 +1,6 @@
 import React from "react";
 import avatarImage from "../../../assets/R.jpg";
-import './Testimonials.css'
+import "./Testimonials.css";
 
 function Testimonials() {
   return (
@@ -51,5 +51,5 @@ function Testimonials() {
       </div>
     </div>
   );
-} 
+}
 export default Testimonials;
