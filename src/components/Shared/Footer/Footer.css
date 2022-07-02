@@ -3,7 +3,6 @@
     padding: 2rem 0;
     background-color: #333;
     color: #fff;
-    height: 14rem;
 }
 
 .footer h3 {
@@ -15,7 +14,6 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    height: 5rem;
 }
 
 .footer .social {
