@@ -5,12 +5,10 @@ import ContactUs from "./components/ContactUs/ContactUs";
 import ListOfHotels from "./components/ListOfHotels/ListOfHotels";
 import ListOfSights from "./components/ListOfSights/ListOfSights";
 import Destinations from "./components/Destinations/Destinations";
-// import ThankYou2 from "./components/ThankYou2/ThankYou2";
-// import ErrorPage from "./components/ErrorPage/ErrorPage";
 import ThankYou from "./components/ThankYou/ThankYou";
 import SignUp from "./components/SignUp/SignUp";
 import SignIn from "./components/SignUp/SignIn";
-// import Footer from "./components/Shared/Footer/Footer";
+import Program from "./components/HomePage/Program/Program";
 
 function App() {
   return (
@@ -27,6 +25,8 @@ function App() {
         <Route path="/sights/signup" element={<SignUp />} />
         <Route path="/hotels/signup" element={<SignUp />} />
         <Route path="/signin" element={<SignIn />} />
+        <Route path="/program" element={<Program />} />
+
       </Routes>
     </div>
   );

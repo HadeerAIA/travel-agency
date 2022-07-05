@@ -1,4 +1,3 @@
-
 display-flex, .display-flex, .display-flex-center, .signup-content, .signin-content, .social-login, .socials {
   display: flex;
   display: -webkit-flex; }
@@ -397,10 +396,17 @@ label.valid {
     -ms-transform: scale(1.3) translateZ(0);
     -o-transform: scale(1.3) translateZ(0);
 }
-
 .zmdi-facebook {
-  background: #3b5998; }
-
+  background: #3b5998;
+  padding: 1rem;
+  border-radius: 5px;
+  color: black;
+  border: red 1px solid;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
 .zmdi-twitter {
   background: #1da0f2; }
 
@@ -484,7 +490,6 @@ label.valid {
     -webkit-flex-direction: column;
     -o-flex-direction: column;
     -ms-flex-direction: column; }
-
   .social-label {
     margin-right: 0px;
     margin-bottom: 10px; } }

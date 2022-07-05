@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import signup from "../../assets/auth/signup-image.jpg";
+import { FaHiking,FaRegEnvelopeOpen } from "react-icons/fa";
+import { RiLockPasswordFill } from "react-icons/ri";
+
 import "./SignUp.css";
 
 function SignUp() {
@@ -12,19 +15,19 @@ function SignUp() {
                 <h3 className="form-title">Sign up</h3>
                 <form method="POST" className="register-form" id="register-form">
                     <div className="form-group">
-                        <label for="name"><i className="zmdi zmdi-account material-icons-name"></i></label>
+                        <label for="name"><FaHiking className="zmdi zmdi-account material-icons-name"></FaHiking></label>
                         <input type="text" name="name" id="name" placeholder="Your Name"/>
                     </div>
                     <div className="form-group">
-                        <label for="email"><i className="zmdi zmdi-email"></i></label>
+                        <label for="email"><FaRegEnvelopeOpen className="zmdi zmdi-email"></FaRegEnvelopeOpen></label>
                         <input type="email" name="email" id="email" placeholder="Your Email"/>
                     </div>
                     <div className="form-group">
-                        <label for="pass"><i className="zmdi zmdi-lock"></i></label>
+                        <label for="pass"><RiLockPasswordFill className="zmdi zmdi-lock"></RiLockPasswordFill></label>
                         <input type="password" name="pass" id="pass" placeholder="Password"/>
                     </div>
                     <div className="form-group">
-                        <label for="re-pass"><i className="zmdi zmdi-lock-outline"></i></label>
+                        <label for="re-pass"><RiLockPasswordFill className="zmdi zmdi-lock-outline"></RiLockPasswordFill></label>
                         <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"/>
                     </div>
                     <div className="form-group">
