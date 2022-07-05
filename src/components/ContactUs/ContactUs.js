@@ -8,14 +8,14 @@ function ContactUs() {
     <div id="contactUs" classNameName="bodycontactus">
       <div class="content">
         <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-10">
-              <div class="row justify-content-center">
+          <div class="row justify-content-center forming">
+            <div class="col-md-10 ">
+              <div class="row justify-content-center ">
                 <div class="col-md-6">
                   <h3 class="heading mb-4">Let's talk about everything!</h3>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptas debitis, fugit natus?
+                  <br></br>
+                  <br></br>
                   </p>
 
                   <p>
@@ -24,13 +24,13 @@ function ContactUs() {
                 </div>
                 <div class="col-md-6">
                   <form
-                    class="mb-5"
+                    class="mb-5 "
                     method="post"
                     id="contactForm"
                     name="contactForm"
                   >
                     <div class="row">
-                      <div class="col-md-12 form-group">
+                      <div class="col-md-12 form-group ">
                         <input
                           type="text"
                           class="form-control"
@@ -76,20 +76,16 @@ function ContactUs() {
                     </div>
                     <div class="row">
                       <div class="col-12">
-                        <input
+                       <Link to="/thanks"> <input
                           type="submit"
                           value="Send Message"
                           class="btn btn-primary rounded-0 py-2 px-4"
-                        />
+                        /></Link>
                         <span class="submitting"></span>
                       </div>
                     </div>
                   </form>
 
-                  <div id="form-message-warning mt-4"></div>
-                  <div id="form-message-success">
-                    Your message was sent, thank you!
-                  </div>
                 </div>
               </div>
             </div>

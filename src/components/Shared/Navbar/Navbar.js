@@ -29,7 +29,7 @@ function Navbar() {
         <Link to="/" smooth={true} duration={500}><li>Home</li></Link>
         <Link to="/hotels" smooth={true} duration={500}><li>Hotels</li></Link>
         <Link to="/sights" smooth={true} duration={500}><li>Sights</li></Link>
-        <Link to="/destinations" smooth={true} duration={500}><li>Destinations</li></Link>
+        <Link to="/destinations" smooth={true} duration={500}><li>Book</li></Link>
         <Link to="/contactUs" smooth={true} duration={500}><li>Contact Us</li></Link>
       </ul>
       <div className="nav-icons">
