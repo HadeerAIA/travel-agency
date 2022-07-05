@@ -20,11 +20,11 @@ function SignIn() {
                 <form method="POST" class="register-form" id="login-form">
                 <div className="form-group">
                         <label for="email"><FaRegEnvelopeOpen className="zmdi zmdi-email"></FaRegEnvelopeOpen></label>
-                        <input type="email" name="email" id="email" placeholder="Your Email"/>
+                        <input type="email" name="email" id="email" placeholder="Your Email" required/>
                     </div>
                     <div className="form-group">
                         <label for="your_pass"><RiLockPasswordFill className="zmdi zmdi-lock"></RiLockPasswordFill></label>
-                        <input type="password" name="your_pass" id="your_pass" placeholder="Password"/>
+                        <input type="password" name="your_pass" id="your_pass" placeholder="Password" required/>
                     </div>
                     <div className="form-group">
                         <input type="checkbox" name="remember-me" id="remember-me" className="agree-term" />

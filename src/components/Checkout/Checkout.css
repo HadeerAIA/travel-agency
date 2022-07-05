@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700");
+.body {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+  height: 705px !important;
+}
+#main {
+  position: relative;
+  width: 900px;
+  height: 550px;
+  left: 30px;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  background: linear-gradient(#e6e6e6, #bbbbbb);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+#left {
+
+  position: relative;
+  background: linear-gradient(135deg, rgba(91, 36, 122, 0.45) 0%, rgba(27, 206, 223, 0.55) 100%), url("https://images.pexels.com/photos/556663/pexels-photo-556663.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+  background-size: cover;
+  background-position: center;
+  height: calc(100% + 70px);
+  width: 40%;
+  top: -35px;
+  left: -50px;
+  padding: 10px 25px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  color: white;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+#left #head {
+  opacity: 0.95;
+}
+#right {
+  position: absolute;
+  width: calc(70% - 120px);
+  height: 100%;
+  top: 0;
+  left: 40%;
+  display: flex;
+  flex-flow: column nowrap;
+  padding-left: 20px;
+}
+
+#right form {
+  display: flex;
+  height: 100%;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+#right form input,
+#right form select, 
+#right form label {
+  -moz-appearance: none;
+  /* Firefox */
+  -webkit-appearance: none;
+  /* Safari and Chrome */
+  appearance: none;
+  border: none;
+  border-bottom: 1.5px solid #ccc;
+  padding: 5px;
+  margin-top: 2.5px;
+  position: relative;
+}
+#right form label {
+    padding-bottom: 20px;
+}
+#right form .form-field {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin-bottom: 12.5px;
+}
+#right form #date-val {
+  display: flex;
+  justify-content: space-between;
+}
+#right form #date-val select {
+  width: 45%;
+}
+#right form button[type=submit] {
+  background: linear-gradient(135deg, #4183d7 0%, #66cc99 100%);
+  padding: 13px;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-weight: 400;
+  font-size: 12pt;
+  margin-top: 10px;
+  width: 100%;
+}
+#right form button [type=submit]:hover {
+  background: transparent;
+  box-shadow: 0 0 0 3px #4183d7;
+  color: #4183d7;
+}
+.back{
+    border: none;
+    margin: 1rem;
+    margin-left: 10rem;
+    position: relative;
+    border-radius: 50px;
+    color: white;
+    font-weight: 400;
+    font-size: 12pt;
+    width: 30%;
+}

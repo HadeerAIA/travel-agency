@@ -16,19 +16,19 @@ function SignUp() {
                 <form method="POST" className="register-form" id="register-form">
                     <div className="form-group">
                         <label for="name"><FaHiking className="zmdi zmdi-account material-icons-name"></FaHiking></label>
-                        <input type="text" name="name" id="name" placeholder="Your Name"/>
+                        <input type="text" name="name" id="name" placeholder="Your Name" required/>
                     </div>
                     <div className="form-group">
                         <label for="email"><FaRegEnvelopeOpen className="zmdi zmdi-email"></FaRegEnvelopeOpen></label>
-                        <input type="email" name="email" id="email" placeholder="Your Email"/>
+                        <input type="email" name="email" id="email" placeholder="Your Email" required/>
                     </div>
                     <div className="form-group">
                         <label for="pass"><RiLockPasswordFill className="zmdi zmdi-lock"></RiLockPasswordFill></label>
-                        <input type="password" name="pass" id="pass" placeholder="Password"/>
+                        <input type="password" name="pass" id="pass" placeholder="Password" required/>
                     </div>
                     <div className="form-group">
                         <label for="re-pass"><RiLockPasswordFill className="zmdi zmdi-lock-outline"></RiLockPasswordFill></label>
-                        <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"/>
+                        <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"required/>
                     </div>
                     <div className="form-group">
                         <input type="checkbox" name="agree-term" id="agree-term" className="agree-term" />

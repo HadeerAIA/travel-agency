@@ -9,6 +9,7 @@ import ThankYou from "./components/ThankYou/ThankYou";
 import SignUp from "./components/SignUp/SignUp";
 import SignIn from "./components/SignUp/SignIn";
 import Program from "./components/HomePage/Program/Program";
+import Checkout from "./components/Checkout/Checkout";
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
         <Route path="/hotels/signup" element={<SignUp />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/program" element={<Program />} />
-
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
     </div>
   );
