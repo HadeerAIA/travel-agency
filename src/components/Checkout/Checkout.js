@@ -12,7 +12,7 @@ function Checkout() {
           </div>
         </section>
         <section id="right">
-          <h1>Purchase</h1>
+          <h1>Checkout</h1>
           <form >
             <div id="form-card" class="form-field">
               <label for="cc-number">Card number:</label>
@@ -97,7 +97,7 @@ function Checkout() {
               <input type="password" maxlength="3" placeholder="123" required />
             </div>
 
-           <Link to ="/thanks"> <button type="submit">Purchase Premium</button></Link>
+           <Link to ="/thanks"> <button type="submit">Confirm</button></Link>
             <Link to="/"><button className="back"> Go Back!</button></Link>
           </form>
         </section>

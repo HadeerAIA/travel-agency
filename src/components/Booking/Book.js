@@ -8,9 +8,9 @@ function Book() {
   return (
 	  <>
 	  <Navbar/>
-    <div id="booking" class="section f">
-		<div class="section-center w">
-			<div class="container s ">
+    <div id="booking" class="section ">
+		<div class="section-center ">
+			<div class="">
 				<div class="row">
 					<div class="booking-form">
 						<div class="booking-bg"></div>

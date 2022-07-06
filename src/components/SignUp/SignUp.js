@@ -16,7 +16,7 @@ function SignUp() {
                 <form method="POST" className="register-form" id="register-form">
                     <div className="form-group">
                         <label for="name"><FaHiking className="zmdi zmdi-account material-icons-name"></FaHiking></label>
-                        <input type="text" name="name" id="name" placeholder="Your Name" required/>
+                        <input type="text" name="name" id="name" placeholder="Username" required/>
                     </div>
                     <div className="form-group">
                         <label for="email"><FaRegEnvelopeOpen className="zmdi zmdi-email"></FaRegEnvelopeOpen></label>

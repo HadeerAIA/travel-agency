@@ -10,7 +10,7 @@ function ContactUs() {
    <Navbar/>
     <div id="contactUs" classNameName="bodycontactus">
       <div className="content">
-        <div className="container">
+        <div >
           <div className="row justify-content-center forming">
             <div className="col-md-10 ">
               <div className="row justify-content-center ">

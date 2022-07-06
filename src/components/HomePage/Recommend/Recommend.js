@@ -69,7 +69,7 @@ function Recommend() {
   return (
     <div id="recommend">
       <div className="title">
-        <h2>Recommended Destinations</h2>
+        <h2>Our Recommended Programs </h2>
       </div>
       <div className="packages">
         <ul>
@@ -85,12 +85,11 @@ function Recommend() {
           })}
         </ul>
       </div>
-
       
       <div className="destinations">
         {data.map((destination) => {
           return (
-            <div className="destination">
+            <div className="destination" key={destination.id}>
               <img src={destination.image} alt="" />
               <h3>{destination.title}</h3>
               <p>{destination.subTitle}</p>

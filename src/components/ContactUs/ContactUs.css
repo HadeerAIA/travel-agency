@@ -1,12 +1,4 @@
-/* body {
-  font-family: "Roboto", sans-serif;
-  background-color: #fff;
-  line-height: 1.9;
-  color: #8c8c8c; } */
-/* h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Roboto", sans-serif;
-  color: #000; } */
+
 
 a {
   -webkit-transition: 0.3s all ease;
@@ -22,10 +14,10 @@ a:hover {
   color: #000;
 }
 
-.content {
+/* .content {
   /* border: 2px yellow solid ; */
-  padding: 3.8rem 0;
-}
+  /* padding: 3.8rem 0; */
+
 
 .heading {
   font-size: 2.5rem;
@@ -111,7 +103,6 @@ label.error {
   margin: 1rem;
 }
 .forming {
-  height: 35rem;
-
-  padding: 3rem;
+  height: 15rem;
+  padding: 1rem;
 }
