@@ -1,46 +1,44 @@
-.footer {
-    width: 100%;
-    padding: 2rem 0;
-    background-color: #333;
-    color: #fff;
-}
-
-.footer h3 {
-    color: var(--primary-light);
-}
-
-.footer .top, .bottom {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer .social {
-    display: flex;
-    justify-content: space-between;
-    width: 280px;
-}
-
-.footer .icon {
-   color: var(--primary-light);
-}
-
-.footer .left, .right {
-    display: flex;
-    align-items: center;
-}
-
-.footer ul {
-    display: flex;
-}
-
-.footer li {
-    padding: .5rem;
-}
-
-@media screen and (max-width: 1140px) {
-    .footer ul {
-        flex-direction: column;
-    }
-}
+body {
+    font-family: "Roboto",  "Segoe UI","Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  
+  a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+    a, a:hover {
+      text-decoration: none !important; }
+  
+  .content {
+    height: 70vh; }
+  .BG{
+      /* border: red 2px solid; */
+      background-color: #000;
+  }
+  .footer-48201 {
+    padding: 1rem 0;
+    background-color: #000;
+    color: #777; }
+    .footer-48201 .footer-site-logo {
+      font-size: 1.5rem;
+      color: #fff; }
+    .footer-48201 .nav-links li {
+      margin-bottom: 10px; }
+      .footer-48201 .nav-links li a {
+        color: gray; }
+        .footer-48201 .nav-links li a:hover {
+          color: #fff; }
+   
+    .footer-48201 .social li {
+      display: inline-block; }
+      .footer-48201 .social li a {
+        color: gray;
+        padding: 7px; }
+        .footer-48201 .social li a:hover {
+          color: #fff; }
+    .footer-48201 .copyright {
+      border-top: 1px solid #404040; }
+  

@@ -3,69 +3,72 @@ import { Link } from "react-router-dom";
 import "./ContactUs.css";
 import img from "../../assets/undraw-contact.svg";
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "../Shared/Navbar/Navbar";
 function ContactUs() {
   return (
+    <>
+   <Navbar/>
     <div id="contactUs" classNameName="bodycontactus">
-      <div class="content">
-        <div class="container">
-          <div class="row justify-content-center forming">
-            <div class="col-md-10 ">
-              <div class="row justify-content-center ">
-                <div class="col-md-6">
-                  <h3 class="heading mb-4">Let's talk about everything!</h3>
+      <div className="content">
+        <div className="container">
+          <div className="row justify-content-center forming">
+            <div className="col-md-10 ">
+              <div className="row justify-content-center ">
+                <div className="col-md-6">
+                  <h3 className="heading mb-4">Let's talk about everything!</h3>
                   <p>
                   <br></br>
                   <br></br>
                   </p>
 
                   <p>
-                    <img src={img} alt="Image" class="img-fluid" />
+                    <img src={img} alt="" className="img-fluid" />
                   </p>
                 </div>
-                <div class="col-md-6">
+                <div className="col-md-6">
                   <form
-                    class="mb-5 "
+                    className="mb-5 "
                     method="post"
                     id="contactForm"
                     name="contactForm"
                   >
-                    <div class="row">
-                      <div class="col-md-12 form-group ">
+                    <div className="row">
+                      <div className="col-md-12 form-group ">
                         <input
                           type="text"
-                          class="form-control"
+                          className="form-control"
                           name="name"
                           id="name"
                           placeholder="Your name"
                         />
                       </div>
                     </div>
-                    <div class="row">
-                      <div class="col-md-12 form-group">
+                    <div className="row">
+                      <div className="col-md-12 form-group">
                         <input
                           type="text"
-                          class="form-control"
+                          className="form-control"
                           name="email"
                           id="email"
                           placeholder="Email"
                         />
                       </div>
                     </div>
-                    <div class="row">
-                      <div class="col-md-12 form-group">
+                    <div className="row">
+                      <div className="col-md-12 form-group">
                         <input
                           type="text"
-                          class="form-control"
+                          className="form-control"
                           name="subject"
                           id="subject"
                           placeholder="Subject"
                         />
                       </div>
                     </div>
-                    <div class="row">
-                      <div class="col-md-12 form-group">
+                    <div className="row">
+                      <div className="col-md-12 form-group">
                         <textarea
-                          class="form-control"
+                          className="form-control"
                           name="message"
                           id="message"
                           cols="30"
@@ -74,14 +77,14 @@ function ContactUs() {
                         ></textarea>
                       </div>
                     </div>
-                    <div class="row">
-                      <div class="col-12">
+                    <div className="row">
+                      <div className="col-12">
                        <Link to="/thanks"> <input
                           type="submit"
                           value="Send Message"
-                          class="btn btn-primary rounded-0 py-2 px-4"
+                          className="btn btn-primary rounded-0 py-2 px-4"
                         /></Link>
-                        <span class="submitting"></span>
+                        <span className="submitting"></span>
                       </div>
                     </div>
                   </form>
@@ -93,6 +96,7 @@ function ContactUs() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

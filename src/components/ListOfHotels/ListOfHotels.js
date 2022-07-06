@@ -4,6 +4,8 @@ import katodoolarialview from "../../assets/kato-dool-arial-view.jpg";
 import movenpickresortaswan from "../../assets/movenpickresortaswan.jpg";
 import info2 from "../../assets/info2.png";
 import info3 from "../../assets/info3.png";
+import { Link } from "react-router-dom";
+
 import mappin from "../../assets/mappin.png";
 import wifi from "../../assets/wifiiconwhite.png";
 import "./ListOfHotels.css";
@@ -87,6 +89,7 @@ function ListOfHotels() {
         <div className="destinations">
           {data.map((destination) => {
             return (
+              <>
               <div className="destination">
                 <img src={destination.image} alt="" />
                 <h3>{destination.title + " / " + destination.governerate}</h3>
@@ -112,7 +115,14 @@ function ListOfHotels() {
                     </div>
                   </div>
                 </div>
+                 <Link to="/book">
+               <div className="form-btn">
+                 <button className="submit-btn">Book Now</button>
+               </div>
+             </Link>
               </div>
+              
+             </>
             );
           })}
         </div>

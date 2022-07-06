@@ -9,6 +9,8 @@ import info1 from "../../../assets/info1.png";
 import info2 from "../../../assets/info2.png";
 import info3 from "../../../assets/info3.png";
 import './Recommend.css'
+import { Link } from "react-router-dom";
+
 
 function Recommend() {
   const data = [
@@ -104,9 +106,15 @@ function Recommend() {
                 <span>1000 Kms</span>
                 <span>{destination.duration}</span>
               </div>
+              <Link to="/book">
+        <div className="form-btn">
+          <button className="submit-btn">Book Now</button>
+        </div>
+      </Link>
             </div>
           );
         })}
+       
       </div>
     </div>
   );
